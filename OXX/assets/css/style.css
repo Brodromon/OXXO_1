@@ -287,11 +287,67 @@
 .pers_team i {
     color: #ff7200;
 }
-.pers_team img,
 .pers_info {
     margin-bottom: 20px;
 }
-.social,
+.pers_team img {
+    border: 2px #666 solid;
+    border-radius: 50%;
+}
+.social_1,
+.social_2,
+.social_3,
+.social_4,
+.social_5 {
+    border: 2px #666 solid;
+    border-radius: 50%;
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+}
+.social_1 {
+    background-image: url(../images/social_1.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.social_1:hover {
+    background-image: url(../images/social_1-2.png);
+}
+.social_2 {
+    background-image: url(../images/social_2.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.social_2:hover {
+    background-image: url(../images/social_2-2.png);
+}
+.social_3 {
+    background-image: url(../images/social_3.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.social_3:hover {
+    background-image: url(../images/social_3-2.png);
+}
+.social_4 {
+    background-image: url(../images/social_4.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.social_4:hover {
+    background-image: url(../images/social_4-2.png);
+}
+.social_5 {
+    background-image: url(../images/social_5.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.social_5:hover {
+    background-image: url(../images/social_5-2.png);
+}
+
+
+
 .footer_social {
     display: inline-block;
 }
