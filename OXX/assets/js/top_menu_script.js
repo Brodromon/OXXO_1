@@ -4,7 +4,7 @@ $(document).ready(function () {
         $("body").animate({"scrollTop": 860},"slow");
     });
      $('.who_top_menu').click(function () {
-        $("body").animate({"scrollTop": 1730},"slow");
+        $("body").animate({"scrollTop": 1650},"slow");
     });
      $('.tm_top_menu').click(function () {
         $("body").animate({"scrollTop": 2444},"slow");
@@ -13,7 +13,7 @@ $(document).ready(function () {
         $("body").animate({"scrollTop": 3154},"slow");
     });
      $('.cl_top_menu').click(function () {
-        $("body").animate({"scrollTop": 4359},"slow");
+        $("body").animate({"scrollTop": 4289},"slow");
     });
      $('.srvs_top_menu').click(function () {
         $("body").animate({"scrollTop": 4704},"slow");

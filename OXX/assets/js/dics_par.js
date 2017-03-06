@@ -48,7 +48,7 @@ $(document).ready(function() {
             $('.tm_top_menu').removeClass('choosed');
             $('.tm_top_menu p').removeClass('choosed');
         }
-        if (st >= 3164) {
+        if (st >= 3154) {
             $('.tm_top_menu').removeClass('choosed');
             $('.tm_top_menu p').removeClass('choosed');
             $('.prt_top_menu').addClass('choosed');
@@ -58,7 +58,7 @@ $(document).ready(function() {
             $('.prt_top_menu').removeClass('choosed');
             $('.prt_top_menu p').removeClass('choosed');
         }
-        if (st >= 4359) {
+        if (st >= 4289) {
             $('.prt_top_menu').removeClass('choosed');
             $('.prt_top_menu p').removeClass('choosed');
             $('.cl_top_menu').addClass('choosed');
@@ -68,7 +68,36 @@ $(document).ready(function() {
             $('.cl_top_menu').removeClass('choosed');
             $('.cl_top_menu p').removeClass('choosed');
         }
-        
+        if (st >= 4704) {
+            $('.cl_top_menu').removeClass('choosed');
+            $('.cl_top_menu p').removeClass('choosed');
+            $('.srvs_top_menu').addClass('choosed');
+            $('.srvs_top_menu p').addClass('choosed');
+        }
+        else {
+            $('.srvs_top_menu').removeClass('choosed');
+            $('.srvs_top_menu p').removeClass('choosed');
+        }
+        if (st >= 5079) {
+            $('.srvs_top_menu').removeClass('choosed');
+            $('.srvs_top_menu p').removeClass('choosed');
+            $('.how_top_menu').addClass('choosed');
+            $('.how_top_menu p').addClass('choosed');
+        }
+        else {
+            $('.how_top_menu').removeClass('choosed');
+            $('.how_top_menu p').removeClass('choosed');
+        }
+        if (st >= 5637) {
+            $('.how_top_menu').removeClass('choosed');
+            $('.how_top_menu p').removeClass('choosed');
+            $('.cont_top_menu').addClass('choosed');
+            $('.cont_top_menu p').addClass('choosed');
+        }
+        else {
+            $('.cont_top_menu').removeClass('choosed');
+            $('.cont_top_menu p').removeClass('choosed');
+        }
         
     });
     

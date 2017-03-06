@@ -233,13 +233,15 @@
     background-size: cover;
     height: 600px;
     margin-bottom: 100px;
+    text-align: center;
 }
 #select_desc_hdr {
     color: #fff;
     margin-top: 90px;
 }
-#selection_header hr {
-    background-color: #fff;   
+#selection_header {
+    display: inline-block;
+    display: inline-block;
 }
 #select_desc_info {
     color: #fff;
@@ -285,6 +287,10 @@
 .pers_team i {
     color: #ff7200;
 }
+.pers_team img,
+.pers_info {
+    margin-bottom: 20px;
+}
 .social,
 .footer_social {
     display: inline-block;
@@ -296,7 +302,8 @@
     box-shadow: 0 0 40px;
     width: 1320px;
     margin: 0 auto;
-    margin-bottom: 100px;;
+    margin-top: 40px;
+    margin-bottom: 100px;
 }
 .portfolio-row {
     height: 250px;
@@ -379,8 +386,51 @@
 #how_do {
     height: 960px;
     padding-top: 100px;
+    text-align: center;
 }
-
+.responsive {
+    width: 1170px;;
+    height: 477px;
+    margin: 0 auto;
+    text-align: center;
+}
+#resp_hdr {
+    margin-bottom: 30px;
+}
+.resp img,
+.resp_info_main,
+.resp_info {
+    display: inline-block;  
+}
+#resps,
+#pc_view {
+    display: inline-table;
+    height: 477px;
+    width: 570px;
+}
+#pc_view {
+    float: left
+}
+#resps {
+    float: right;
+}
+/*
+#pc_view,
+#resps,
+.resp_zag,
+.resp_info {
+    display: inline-table;
+}
+*/
+#resps {
+    margin-left: 30px;
+}
+.resp {
+    margin-bottom: 60px;
+}
+.resp_info {
+    width: 460px;
+}
 .footerMain {
     width: 100%;
 }
@@ -399,7 +449,8 @@
     margin-bottom: 30px;
 }
 #footer_main_inf {
-    
+    margin: 0 auto;
+    text-align: center;
 }
 .f_i {
     color: #fff;
