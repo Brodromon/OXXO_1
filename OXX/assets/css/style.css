@@ -18,9 +18,11 @@
     height: 120px;
     line-height: 120px;
     padding: 0;
+    text-align: center;
 }
 .navbar_ox {
     display: inline-block;
+    text-align: center;
 }
 .navbar_ox li {
     display: inline-block;
@@ -72,18 +74,25 @@
     float: left;
     
 }
+/*
 #l_nav li
 #l_nav_abtus li {
     margin-right: 10px;
+}
+*/
+#l_nav li:last-child {
+    margin-right: 0;
 }
 #r_nav,
 #r_nav_abtus {
     float: right;
 }
+/*
 #r_nav li
 #r_nav_abtus li {
     margin-left: 10px;
 }
+*/
 .logo {
     height: 72px;
     width: 171px;
@@ -154,6 +163,10 @@
     z-index: 5;
     
 }
+#hdr_about {
+    text-align: center;
+    padding: 0;
+}
 .animate {
     padding-top: 120px;
 }
@@ -190,6 +203,7 @@
 #abt_disc hr {
     background-color: #666;
 }
+
 .slider_resp_th {
     width: 550px;
     z-index: 3;
@@ -198,6 +212,9 @@
 .slick-prev,
 .slick-next {
     z-index: 3;
+}
+#desc_resp_th {
+    float: right;
 }
 #desc_resp_th_hdr {
     font-size: 25px;
@@ -261,6 +278,7 @@
     font-size: 18px;
     
 }
+
 .prop img {
     margin-bottom: 60px;
 }
@@ -272,6 +290,11 @@
 }
 #teamMain {
     height: 1010px;
+    text-align: center;
+}
+#team_ppl {
+    text-align: center;
+    margin: 0 auto;
 }
 #team_desc_top {
     margin-top: 90px;
@@ -355,15 +378,14 @@
     height: auto;
     background: #fff;
     text-align: center;
-    box-shadow: 0 0 40px;
+    height: 500px;
     width: 1320px;
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 100px;
 }
 .portfolio-row {
-    height: 250px;
-    width: 1320px;
+    height: 50%;
     margin: 0 auto;
 }
 .port {
@@ -563,6 +585,7 @@
     font-size: 18px;
     height: 120px;
     overflow: auto;
+    text-align: left;
 }
 #mes_submit {
     background: url(../images/mes_submit.png) no-repeat;
@@ -598,4 +621,165 @@
     display: inline-block;
     color: #acabab;
     margin: 0 15px;
+}
+
+@media screen and (max-width: 1320px) {
+    #portfolioMain {
+        width: 660px;
+        height: 1000px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .navbar_ox li {
+        font-size: 10px;
+        height: 30px;
+        width: 80px;
+        line-height: 30px;
+    }
+    .navbar_ox li:hover {
+        font-size: 10px;
+        height: 30px;
+        width: 80px;
+        line-height: 30px;
+    }
+    #desc_resp_th {
+        width: 40%;
+    }
+    .desc_resp_th_btn {
+        margin-right: 10px;
+    }
+    .prop_desc {
+        width: 250px;
+    }
+    .prop h4 {
+        font-size: 15px;
+    }
+    .prop p {
+        font-size: 10px;
+    }
+    .s_client_slider {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    
+    #teamMain {
+        height: 1550px;
+    }
+    #team_ppl {
+        width: 655px;
+    }
+    .responsive {
+        width: 100%;
+    }
+    #pc_view {
+        width: 50%;
+    }
+    #resps {
+        margin: 0;
+        width: 50%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #pc_view {
+        height: 90%;
+    }
+}
+@media screen and (max-width: 920px) {
+    
+    #pc_view {
+        height: 477px;
+        width: 570px;
+        float: none;
+        
+    }
+    #how_do {
+        height: 1000px;
+    }
+    #resps {
+        width: 100%;
+        margin-top: 30px;
+        height: 230px;
+    }
+    .resp {
+        width: 33%;
+        display: inline-block;
+    }
+    .resp_info_main {
+        width: 100%;
+    }
+    .resp_info {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .navbar_ox li {
+        font-size: 8px;
+        width: 60px;
+        height: 25px;
+        line-height: 25px;
+    }
+    .navbar_ox li:hover {
+        font-size: 8px;
+        width: 60px;
+        height: 25px;
+        line-height: 25px;
+    }
+    .slider_resp_th {
+        width: 420px;
+        height: 300px;
+    }
+    .slider_abt {
+        height: 300px;
+    }
+    #desc_resp_th_desc {
+        font-size: 12px;
+    }
+    .desc_resp_th_btn {
+        width: 100px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 12px;
+    }
+    .prop {
+        margin: 0px 7px 100px 7px;
+    }
+    .prop_desc {
+        width: 170px;
+    }
+    .footer_info_main {
+        width: 180px;
+    }
+    .footer_socials {
+        height: 30px;
+    }
+    .footer_social,
+    .footer_social img{
+        width: 30px;
+        height: 30px;
+    }
+    .footer_news {
+        width: 180px;
+        text-align: center;
+        margin: 10px 0 0 0;
+    }
+    .footer_news_desc {
+        text-align: center;
+    }
+    .news_zag,
+    .footer_info_main h5,
+    .footer_info_main p,
+    #footer_info_text {
+        font-size: 11px;
+    }
+    .news_info,
+    .news_date {
+        font-size: 8px
+    }
+    .con_field {
+        width: 180px;
+    }
+    .con_field_inp {
+        height: 27px;
+    }
 }

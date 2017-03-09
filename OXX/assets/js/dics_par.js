@@ -7,7 +7,6 @@ $(document).ready(function() {
             
             "transform" : "translate(0%, -" + st/15 + "%)"
         });
-        console.log(st);
         
         if ($(this).scrollTop() >= 860) {
             $('.hdr_about').addClass('anim');

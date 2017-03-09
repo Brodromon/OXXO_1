@@ -35,9 +35,9 @@
 .slick-prev:hover,
 .slick-next:hover {
     
-    background: #111;
+    background: #565656;
     border: 3px #fff solid;
-    opacity: 0.3;
+    
 }
 .slick-prev:hover,
 .slick-prev:focus,
@@ -80,9 +80,15 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.pl25 {
+    left: 25px;
+}
 
 .slick-prev
 {
+    left: -30px;
+}
+.pl25 {
     left: 25px;
 }
 [dir='rtl'] .slick-prev
@@ -106,7 +112,7 @@
 
 .slick-next
 {
-    right: 25px;
+    right: -30px;
 }
 [dir='rtl'] .slick-next
 {
