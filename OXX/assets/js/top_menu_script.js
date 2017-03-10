@@ -25,4 +25,27 @@ $(document).ready(function () {
         $("body").animate({"scrollTop": 5949},"slow");
     });
     
+    var st = $(this).scrollTop();
+    var wdt = $('body').width();
+    
+  
+    
+        $('.logo').on('click', function(){
+                    $('.header').animate({
+                         height: '240px'
+                     }, "fast");
+                });
+                $(this).scroll(function(){
+                $('.header').animate({
+                         height: '120px'
+                     }, "fast");
+
+            });
+
+    
+         
+    
+    
+    
+    
 });

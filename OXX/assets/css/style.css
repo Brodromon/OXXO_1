@@ -487,19 +487,16 @@
     width: 570px;
 }
 #pc_view {
+    height: 100%;
+    width: 45%;
+}
+#pc_view {
     float: left
 }
 #resps {
     float: right;
 }
-/*
-#pc_view,
-#resps,
-.resp_zag,
-.resp_info {
-    display: inline-table;
-}
-*/
+
 #resps {
     margin-left: 30px;
 }
@@ -781,5 +778,27 @@
     }
     .con_field_inp {
         height: 27px;
+    }
+    #footer_copy {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 732px) {
+    
+    .header {
+        height: auto;
+        line-height: 60px;
+    }
+    .navbar_ox {
+        display: none;
+        height: 80px;
+        width: 100%;
+        transition: 1s ease-in-out;
+    }
+    .navbar_ox .show {
+        display: block;
+    }
+    .logo {
+        margin: 27px 0 0 0;
     }
 }
